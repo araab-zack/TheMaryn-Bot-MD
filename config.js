@@ -11,41 +11,28 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
-  ['5218442286089', '💫 Mystic - Collaborator 4 💫', true],
-  ['50246028932', '💫 Mystic - Collaborator 5 💫', true],
-  ['5212412377467', '💫 Mystic - Collaborator 6 💫', true],
-  ['5215517489568', '💫 Mystic - Rey Endymion 💫', false],
-  ['59895555511', '💫 Mystic - Collaborator 8 💫', true],
-  ['59175655964', '💫 Mystic - By Alba070503 💫', true],
-  ['393518398856','💫 Mystic - Tester Fabri115💫', true],
-  ['593968585283'],
-  ['5492266466080'],
-  ['5218442114446'],
-  ['59894808483'],
-  ['593980586516'], 
-  ['595975740803'],  
-  ['5492266613038'],
-  ['50497150165'],
-  ['51906662557'],
-  ['573183650526'], 
-  ['5217441298510'], 
-  ['5217294888993'],
-  ['595992611272']
+  ['201280244814', '👑⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩👑', true],
+  ['201280244814', '💫 ⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩2 💫', true],
+  ['201280244814', '💫 ⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩ 💫', true],
+  ['201280244814', '💫⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩💫', true],
+  ['201280244814', '💫 ⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩💫', true],
+  ['201280244814', '💫 ⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩ 💫', true],
+  ['201280244814', '💫⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩💫', false],
+  ['201280244814', '💫 ⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩ 💫', true],
+  ['201280244814', '💫 ⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩ 💫', true],
+  ['201280244814','💫⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩💫', true],
 ];
 
-global.suittag = ['5219993404349'];
-global.prems = ['51995386439'];
+global.suittag = ['201280244814'];
+global.prems = ['201280244814'];
 
-global.packname = 'Sticker';
-global.author = 'The Mystic - Bot';
-global.wm = 'The Mystic - Bot';
-global.titulowm = 'The Mystic - Bot';
-global.titulowm2 = `The Mystic - Bot`
-global.igfg = 'The Mystic - Bot';
-global.wait = '*[ ⏳ ] Cargando...*';
+global.packname = '𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
+global.author = '𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
+global.wm = '𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
+global.titulowm = '𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
+global.titulowm2 = `𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇`
+global.igfg = '𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
+global.wait = '*[ ⏳ ] جار التحميل ياورع...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -69,15 +56,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
-global.gt = 'The Mystic - Bot';
-global.mysticbot = 'The Mystic - Bot';
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.waitt = '*[ ⏳ ] Cargando...*';
-global.waittt = '*[ ⏳ ] Cargando...*';
-global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '5219993404349';
+global.wm2 = `${dia} ${fecha}\n𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇`;
+global.gt = '𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
+global.mysticbot = '𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
+global.md = 'https://github.com/Elmoz3gg/TheZero-Bot-MD';
+global.mysticbot = 'https://github.com/Elmoz3gg/TheZero-Bot-MD';
+global.waitt = '*[ ⏳ ] جار التحميل ياورع...*';
+global.waittt = '*[ ⏳ ] جار التحميل ياورع...*';
+global.waitttt = '*[ ⏳ ] جار التحميل ياورع...*';
+global.nomorown = '201280244814';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
@@ -92,8 +79,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
-global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
+global.botdate = `*[ 📅 ] التاريخ:*  ${moment.tz('Egypt/cairo_city').format('DD/MM/YY')}`;
+global.bottime = `*[ ⏳ ] الوقت:* ${moment.tz('Egypt/cairo_city').format('HH:mm:ss')}`;
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
