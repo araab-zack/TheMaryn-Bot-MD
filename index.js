@@ -1,4 +1,4 @@
-console.log('[ ℹ️ ] Iniciando...');
+console.log('[ ℹ️ ] جاري الاتصال...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -13,11 +13,11 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('The Mystic\nBot', {
+say('The zero\nBot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot creado por Bruno Sobrino`, {
+say(`zero-bot`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
@@ -57,7 +57,7 @@ function start(file) {
   });
   p.on('exit', (_, code) => {
     isRunning = false;
-    console.error('[ ℹ️ ] Ocurrio un error inesperado:', code);
+    console.error('[ ℹ️ ] حدث خطأ غير متوقع:', code);
 
     p.process.kill();
     isRunning = false;
