@@ -21,8 +21,6 @@ let handler = m => m
      conn.reply(m.chat, `*اسمي زيرو يانجم 💗*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
       
     }
-
-   
  } 
  return !0 } 
  export default handler
