@@ -74,7 +74,7 @@ ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.m
 
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['infobot', 'bot']
+handler.command = ['infobot', 'الحاله']
 handler.owner = true
 
 export default handler
