@@ -76,6 +76,5 @@ handler.help = ['info']
 handler.tags = ['main']
 handler.command = ['infobot', 'الحاله']
 handler.owner = true
-handler.bot_admin = true
 
 export default handler
