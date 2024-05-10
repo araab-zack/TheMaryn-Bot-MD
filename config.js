@@ -26,12 +26,12 @@ global.owner = [
 global.suittag = ['201280244814'];
 global.prems = ['201280244814'];
 
-global.packname = '𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
-global.author = '𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
-global.wm = '𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
-global.titulowm = '𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
-global.titulowm2 = `𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇`
-global.igfg = '𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
+global.packname = '💧𝐕𝐄𝐑𝐋𝐃┊🤖┊𝐁𝐎𝐓💧';
+global.author = '💧𝐕𝐄𝐑𝐋𝐃┊🤖┊𝐁𝐎𝐓💧';
+global.wm = '💧𝐕𝐄𝐑𝐋𝐃┊🤖┊𝐁𝐎𝐓💧';
+global.titulowm = '💧𝐕𝐄𝐑𝐋𝐃┊🤖┊𝐁𝐎𝐓💧';
+global.titulowm2 = `💧𝐕𝐄𝐑𝐋𝐃┊🤖┊𝐁𝐎𝐓💧`
+global.igfg = '💧𝐕𝐄𝐑𝐋𝐃┊🤖┊𝐁𝐎𝐓💧';
 global.wait = '*[ ⏳ ] جار التحميل ياورع...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -56,9 +56,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇`;
-global.gt = '𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
-global.mysticbot = '𝑇𝐻𝐸_𝑍𝐸𝑅𝛩_𝐵𝛩𝑇';
+global.wm2 = `${dia} ${fecha}\n💧𝐕𝐄𝐑𝐋𝐃┊🤖┊𝐁𝐎𝐓💧`;
+global.gt = '💧𝐕𝐄𝐑𝐋𝐃┊🤖┊𝐁𝐎𝐓💧';
+global.mysticbot = '💧𝐕𝐄𝐑𝐋𝐃┊🤖┊𝐁𝐎𝐓💧';
 global.md = 'https://github.com/Elmoz3gg/TheZero-Bot-MD';
 global.mysticbot = 'https://github.com/Elmoz3gg/TheZero-Bot-MD';
 global.waitt = '*[ ⏳ ] جار التحميل ياورع...*';
