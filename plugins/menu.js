@@ -24,8 +24,7 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `
-مرحبا بك/ي معاك/ي 𝑍𝐸𝑅𝛩-𝐵𝛩𝑇
+let str = `مرحبا بك/ي معاك/ي 𝑍𝐸𝑅𝛩-𝐵𝛩𝑇
 ⎔ ⋅ ───━ •﹝🔮﹞• ━─── ⋅ ⎔
 قسم الجروبات 🔮
 ⎔ ⋅ ───━ •﹝🔮﹞• ━─── ⋅ ⎔
@@ -168,9 +167,8 @@ let str = `
 ⎔ ⋅ ───━ •﹝🔮﹞• ━─── ⋅ ⎔
 𝑍𝐸𝑅𝛩-𝐵𝛩𝑇🔮
 ⎔ ⋅ ───━ •﹝🔮﹞• ━─── ⋅ ⎔
-
 `.trim()
-     const _0x3c7cab = _0x5a1d;
+   const _0x3c7cab = _0x5a1d;
 
         function _0x5a1d(_0x1b92fa, _0x42ca62) {
             const _0x5a1d39 = _0x42ca();
@@ -231,7 +229,7 @@ let str = `
         conn.reply(m.chat, '[❗خطاء❗]', m)
     }
 }
-handler.command = /^(اوامر|الاوامر)$/i
+handler.command = /^(المهام|مهام)$/i
 handler.exp = 20
 handler.fail = null
 export default handler
