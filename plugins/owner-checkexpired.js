@@ -17,7 +17,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['checkexpired']
 handler.tags = ['group']
-handler.command = /^(checkexpired|cexpired)$/i
+handler.command = /^(موعد_الانتهاء|cexpired)$/i
 handler.group = true
 
 export default handler
