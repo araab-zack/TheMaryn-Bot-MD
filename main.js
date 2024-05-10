@@ -143,7 +143,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['TheMystic-Bot-MD', 'Safari', '2.0.0'] : methodCodeQR ? ['TheMystic-Bot-MD', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '20.0.04'],
+browser: opcion == '1' ? ['TheMystic-Bot-MD', 'Safari', '2.0.0'] : methodCodeQR ? ['TheMystic-Bot-MD', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -203,7 +203,7 @@ rl.close()
 
 conn.isInit = false;
 conn.well = false;
-conn.logger.info(`[ ℹ️ ] Cargando...\n`);
+conn.logger.info(`[ ℹ️ ] جاري التحميل...\n`);
 
 if (!opts['test']) {
   if (global.db) {
@@ -254,7 +254,7 @@ return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.star
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./Harlry-light/${files}`)
+unlinkSync(`./MysticSession/${files}`)
 })
 } 
 
@@ -299,8 +299,6 @@ console.log(chalk.bold.red(`Archivo ${file} no borrado` + err))
 }
 
 async function connectionUpdate(update) {
-  
-
   const {connection, lastDisconnect, isNewLogin} = update;
   global.stopped = connection;
   if (isNewLogin) conn.isInit = true;
@@ -318,9 +316,9 @@ if (opcion == '1' || methodCodeQR) {
   if (connection == 'open') {
     console.log(chalk.yellow('[ ℹ️ ] Conectado correctamente.'));
   }
-let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
+  let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
-await fs.unlinkSync("./MysticSession/" + "creds.json")
+await fs.unlinkSync("./Harlry-light/" + "creds.json")
 console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
 process.send('reset')}
 if (connection === 'close') {
@@ -358,12 +356,9 @@ if (connection === 'close') {
 process.on('uncaughtException', console.error);
 
 let isInit = true;
-
 let handler = await import('./handler.js');
 global.reloadHandler = async function(restatConn) {
-  
   try {
-   
     const Handler = await import(`./handler.js?update=${Date.now()}`).catch(console.error);
     if (Object.keys(Handler || {}).length) handler = Handler;
   } catch (e) {
@@ -388,16 +383,14 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  // Para cambiar estos mensajes, solo los archivos en la carpeta de language, 
-  // busque la clave "handler" dentro del json y cámbiela si es necesario
-  conn.welcome = '👋 ¡مرحبا منور يا /a!\n@user';
-  conn.bye = '👋 ¡تغور ياجي مكانك طبور!\n@user';
-  conn.spromote = '*[ ℹ️ ] @user تمت ترقيته إلى المسؤول.*';
-  conn.sdemote = '*[ ℹ️ ] @user تم تخفيض رتبته من المسؤول.*';
-  conn.sDesc = '*[ ℹ️ ] تم تعديل وصف المجموعة.*';
-  conn.sSubject = '*[ ℹ️ ] تم تغيير اسم المجموعة.*';
-  conn.sIcon = '*[ ℹ️ ] تم تغيير صورة الملف الشخصي للمجموعة.*';
-  conn.sRevoke = '*[ ℹ️ ] تمت إعادة تعيين رابط دعوة المجموعة.*';
+  conn.welcome = '*⎔ ⋅ ───━ •﹝👑﹞• ━─── ⋅ ⎔*\n*👑ꪶ→ @subject*\n*👑ꪶ→ @user*\n*👑ꪶ→مـرحـبـاً بـك فـي جـروبـنـا الـمتوضـع اتـمـنـي أن يـعـجـبـك*\n👑ꪶ→ *اقـرا الوصف*\n*⎔ ⋅ ───━ •﹝👑﹞• ━─── ⋅ ⎔*\n *المجموعه:*\n\n@desc\n\n*⎔ ⋅ ───━ •﹝👑﹞• ━─── ⋅ ⎔*';
+  conn.bye = '*⎔ ⋅ ───━ •﹝👑﹞• ━─── ⋅ ⎔*\n*👑ꪶ→ @user*\n*ꪶ→ تغور ياجي مكانك طابور 🐦👋🏻*\n*⎔ ⋅ ───━ •﹝👑﹞• ━─── ⋅ ⎔**';
+  conn.spromote = '*[ 👑 ] @user تمت ترقيته إلى المسؤول.*';
+  conn.sdemote = '*[ 👑 ] @user تم تخفيض رتبته من المسؤول.*';
+  conn.sDesc = '*[ 👑 ] تم تعديل وصف المجموعه.*';
+  conn.sSubject = '*[ 👑 ] تم تغيير اسم المجموعة.*';
+  conn.sIcon = '*[ 👑 ] تم تغيير صورة الملف الشخصي للمجموعة.*';
+  conn.sRevoke = '*[ 👑 ] تمت إعادة تعيين رابط دعوة المجموعة.*';
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
@@ -551,7 +544,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = ` وقت الشغيل تم تطوير البوت بواستطي هارلي لايت : ${uptime}`;
+  const bio = `تم تطوير البوت بواستطي هارلي لايت 👑🔥 :\n\n ${uptime}`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
@@ -559,6 +552,6 @@ function clockString(ms) {
   const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24;
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
-  return [d, 'd ️', h, 'h ', m, 'm ', s, 's '].map((v) => v.toString().padStart(2, 0)).join('');
+  return [d, ' يوم ️', h, ' ساعه ', m, ' دقيقه ', s, ' ثانيه '].map((v) => v.toString().padStart(2, 0)).join('');
 }
 _quickTest().catch(console.error);
