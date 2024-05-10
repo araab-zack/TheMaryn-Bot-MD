@@ -1,4 +1,4 @@
-console.log('[ ℹ️ ] جاري الاتصال...');
+console.log('[ 💠 ] جاري التجهيز...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -13,11 +13,11 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('The zero\nBot', {
+say('The mego\nBot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`zero-bot`, {
+say(`light bot`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
@@ -42,7 +42,6 @@ function start(file) {
     args: args.slice(1)});
   const p = fork();
   p.on('message', (data) => {
-    
     console.log('[RECIBIDO]', data);
     switch (data) {
       case 'reset':
