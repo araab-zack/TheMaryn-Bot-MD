@@ -1,4 +1,4 @@
-//by: kakashi bro♦️💚
+//by: harley_light
 
 let handler = async (m, { conn, text, participants}) => {
 	
