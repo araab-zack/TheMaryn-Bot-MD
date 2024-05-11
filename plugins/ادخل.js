@@ -14,7 +14,7 @@ let handler = async (m, { conn, text, usedPrefix, command, args, participants, i
   if (!args[1]) throw `📌 عدد الأيام مفقود\n\n مثال:\n *${usedPrefix + command}* <الرابط> 2`
   if (isNaN(args[1])) throw `✠ ارقام فقط!, تمثل الأيام التي سيكون فيها البوت في المجموعة!`
   let owbot = global.owner[1] 
-  m.reply(`😎 انتظر 3 ثواني, سأنضم الى المجموعه ياورع`)
+  m.reply(`😎 انتظر 3 ثواني, سأنضم الى المجموعه`)
   await delay(3000)
   try {
   let res = await conn.groupAcceptInvite(code)
@@ -60,7 +60,7 @@ ${usedPrefix}اوامر
 }
 handler.help = ['join <chat.whatsapp.com> <dias>']
 handler.tags = ['owner']
-handler.command = ['انضم', 'أدخل'] 
+handler.command = ['join', 'أدخل'] 
 
 //handler.owner = true
 
