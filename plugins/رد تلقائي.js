@@ -5,7 +5,7 @@ let handler = m => m;
  let responses; 
  if (/^مارين$/i.test(m.text)) { 
  responses = [ 
- '*قلب مارين 🥹💗*'
+ '*عيون مارين🌚✨*'
  ]; 
  } else if (/^بوووت|بموووووووووت|بوت$/i.test(m.text)) { 
      responses = [ 
