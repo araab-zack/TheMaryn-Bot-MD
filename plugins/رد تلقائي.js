@@ -19,6 +19,11 @@ let handler = m => m;
      responses = [ 
        '*شغالة شغالة تست خلص انت بس 🐦*',  
      ];
+     ];
+ }else if (/^مارين بحبك|بحبك$/i.test(m.text)) { 
+     responses = [ 
+       '*لا انا شادو 🐦*',  
+     ];
  }
  if (responses) { 
  let randomIndex = Math.floor(Math.random() * responses.length); 
