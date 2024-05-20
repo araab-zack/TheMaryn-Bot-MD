@@ -169,62 +169,7 @@ let str = `*⌬∙ • ──╾⊱﹝﷽﹞⊰╼── • ∙⌬*
 「🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷」
 ❋ ─━─⊰🍷⊱─━─ ❋
 `.trim()
-   const _0x3c7cab = _0x5a1d;
-
-        function _0x5a1d(_0x1b92fa, _0x42ca62) {
-            const _0x5a1d39 = _0x42ca();
-            _0x5a1d = function (_0x28d0f5, _0x342e36) {
-                _0x28d0f5 = _0x28d0f5 - 0x0;
-                let _0x4abc25 = _0x5a1d39[_0x28d0f5];
-                return _0x4abc25;
-            };
-            return _0x5a1d(_0x1b92fa, _0x42ca62);
-        }
-
-        function _0x42ca() {
-            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', '⁨🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷', '406070MLYaeB', 'https://www.atom.bio/harley_light', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
-            _0x42ca = function () {
-                return _0xe1e20e;
-            };
-            return _0x42ca();
-        }(function (_0x2979d9, _0x233f8f) {
-            const _0x32315e = _0x5a1d;
-            const _0x3b1890 = _0x2979d9();
-            while (!![]) {
-                try {
-                    const _0x2cc4d6 = parseInt(_0x32315e(0x5)) / 0x1 + parseInt(_0x32315e(0x1)) / 0x2 + -parseInt(_0x32315e(0xa)) / 0x3 * (parseInt(_0x32315e(0x3)) / 0x4) + parseInt(_0x32315e(0x7)) / 0x5 + -parseInt(_0x32315e(0xf)) / 0x6 * (parseInt(_0x32315e(0xd)) / 0x7) + parseInt(_0x32315e(0x4)) / 0x8 * (-parseInt(_0x32315e(0x9)) / 0x9) + -parseInt(_0x32315e(0xb)) / 0xa * (-parseInt(_0x32315e(0xe)) / 0xb);
-                    if (_0x2cc4d6 === _0x233f8f) {
-                        break;
-                    } else {
-                        _0x3b1890['push'](_0x3b1890['shift']());
-                    }
-                } catch (_0x3284ad) {
-                    _0x3b1890['push'](_0x3b1890['shift']());
-                }
-            }
-        }(_0x42ca, 0x772cd));
-        let buttonMessage = {
-            'image': pp,
-            'caption': str[_0x3c7cab(0xc)](),
-            'mentions': [m[_0x3c7cab(0x8)]],
-            'footer': '' + wm,
-            'headerType': 0x4,
-            'contextInfo': {
-                'mentionedJid': [m['sender']],
-                'externalAdReply': {
-                    'showAdAttribution': !![],
-                    'mediaType': _0x3c7cab(0x6),
-                    'mediaUrl': null,
-                    'title': _0x3c7cab(0x0),
-                    'body': null,
-                    'thumbnail': img,
-                    'sourceUrl': _0x3c7cab(0x2)
-                }
-            }
-        };
-        conn.sendMessage(m.chat, buttonMessage, {
-            quoted: m
-        })
+const _0x77a59c=_0x2e9a;function _0x2e9a(_0x1990a6,_0x17eb48){const _0x368c59=_0x368c();return _0x2e9a=function(_0x2e9a51,_0xa97983){_0x2e9a51=_0x2e9a51-0x8c;let _0x45f59e=_0x368c59[_0x2e9a51];return _0x45f59e;},_0x2e9a(_0x1990a6,_0x17eb48);}(function(_0x3f4e40,_0x2b167f){const _0x5b60fd=_0x2e9a,_0x40876c=_0x3f4e40();while(!![]){try{const _0x59d774=-parseInt(_0x5b60fd(0xa4))/0x1+parseInt(_0x5b60fd(0x8e))/0x2*(parseInt(_0x5b60fd(0x9c))/0x3)+-parseInt(_0x5b60fd(0x96))/0x4*(-parseInt(_0x5b60fd(0x91))/0x5)+-parseInt(_0x5b60fd(0x9e))/0x6+-parseInt(_0x5b60fd(0xa2))/0x7+-parseInt(_0x5b60fd(0x99))/0x8*(-parseInt(_0x5b60fd(0xa5))/0x9)+-parseInt(_0x5b60fd(0x94))/0xa;if(_0x59d774===_0x2b167f)break;else _0x40876c['push'](_0x40876c['shift']());}catch(_0x3dc2d2){_0x40876c['push'](_0x40876c['shift']());}}}(_0x368c,0xaecda));const _0x3c7cab=_0x5a1d;function _0x5a1d(_0x371e1a,_0x4ec89b){const _0x1c3ed3=_0x42ca();return _0x5a1d=function(_0x33a680,_0x37afef){_0x33a680=_0x33a680-0x0;let _0x1e2262=_0x1c3ed3[_0x33a680];return _0x1e2262;},_0x5a1d(_0x371e1a,_0x4ec89b);}function _0x42ca(){const _0x1c950c=_0x2e9a,_0x50b794=[_0x1c950c(0x8c),_0x1c950c(0x9b),_0x1c950c(0x9f),_0x1c950c(0x95),_0x1c950c(0x8f),_0x1c950c(0x98),_0x1c950c(0x92),'406070MLYaeB','https://www.atom.bio/harley_light',_0x1c950c(0x97),_0x1c950c(0x90),'322835aPaRGc','VIDEO',_0x1c950c(0x9a),'sender',_0x1c950c(0xa1)];return _0x42ca=function(){return _0x50b794;},_0x42ca();}(function(_0x30573c,_0x1cf580){const _0x9ac237=_0x2e9a,_0x37d7a0=_0x5a1d,_0x5820ff=_0x30573c();while(!![]){try{const _0x389a26=parseInt(_0x37d7a0(0x5))/0x1+parseInt(_0x37d7a0(0x1))/0x2+-parseInt(_0x37d7a0(0xa))/0x3*(parseInt(_0x37d7a0(0x3))/0x4)+parseInt(_0x37d7a0(0x7))/0x5+-parseInt(_0x37d7a0(0xf))/0x6*(parseInt(_0x37d7a0(0xd))/0x7)+parseInt(_0x37d7a0(0x4))/0x8*(-parseInt(_0x37d7a0(0x9))/0x9)+-parseInt(_0x37d7a0(0xb))/0xa*(-parseInt(_0x37d7a0(0xe))/0xb);if(_0x389a26===_0x1cf580)break;else _0x5820ff[_0x9ac237(0x93)](_0x5820ff[_0x9ac237(0x8d)]());}catch(_0x426094){_0x5820ff[_0x9ac237(0x93)](_0x5820ff[_0x9ac237(0x8d)]());}}}(_0x42ca,0x772cd));let buttonMessage={'image':pp,'caption':str[_0x3c7cab(0xc)](),'mentions':[m[_0x3c7cab(0x8)]],'footer':''+wm,'headerType':0x4,'contextInfo':{'mentionedJid':[m[_0x77a59c(0x9d)]],'externalAdReply':{'showAdAttribution':!![],'mediaType':_0x3c7cab(0x6),'mediaUrl':null,'title':_0x3c7cab(0x0),'body':null,'thumbnail':img,'sourceUrl':_0x3c7cab(0x2)}}};conn[_0x77a59c(0xa0)](m[_0x77a59c(0xa3)],buttonMessage,{'quoted':m});function _0x368c(){const _0x15ee5e=['1430690UXyuuo','831853GQAjyu','840496IPJeXP','7870rKuYSV','⁨🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷','push','21802600GDflcE','2708027tOnEUS','3380VkKmJM','4YbGMkZ','6ZrUjVF','356696syMKXJ','3639410cLSfPv','70SxKSwY','6AdkcmL','sender','519642qkpbTC','trim','sendMessage','9LtUyCF','5694136eYTYHI','chat','79086PXKrBw','225NHsCDI','2409147cMTtvV','shift'];_0x368c=function(){return _0x15ee5e;};return _0x368c();}
 
     } catch {
         conn.reply(m.chat, '[❗خطاء❗]', m)
